@@ -1,0 +1,132 @@
+/* Universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* comon class start*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.cmn-gap{
+    padding: 100px 0;
+}
+/* comon class end */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links a{
+    margin-left: 49px;
+    color: #000;
+}
+.cmn-btn{
+    margin-left: 99px;
+    border: 1px solid #D99749;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #D99749;
+}
+.banner-sec .container{
+    background: url(/image/banner.png) no-repeat;
+    height: 581px;
+    display: flex;
+    align-items: center;
+    background-position: right center;
+}
+.banner-sec{
+    padding-top: 64px;
+    padding-bottom: 168px;
+}
+.banner-child{
+    background-color: #E2BE94;
+    width: 50%;
+    padding: 34px 49px 60px 33px;
+}
+.ban-btn{
+    display: inline-block;
+    padding: 13.5px 32px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+h1,.heading-1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 33px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+h2,.heading-2{
+    font-size: 37px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 33px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+h3,.heading-3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 33px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+h4,.heading-4{
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 33px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+h5,.heading-5{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 33px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+h6,.heading-6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 33px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
